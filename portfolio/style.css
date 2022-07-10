@@ -1,0 +1,146 @@
+.about{
+  color: lightblue;
+}
+
+body{
+    margin: 0;
+    font-family: Arial;
+  overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    
+  }
+
+  .contact{
+   color: lightgreen;
+  }
+
+  .contact-me{
+  padding-top: 10%;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  }
+  #contact-section{
+  width: 100vw;
+   height: 100vh;
+   background-color: lightgreen;
+   text-align: center;
+  }
+
+figcaption{
+  color: black;
+}
+  h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: black;
+  }
+  
+  li{
+    display: inline;
+    margin: 0 auto;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .project{
+color: rgb(241, 170, 182);
+margin: 0 auto;
+padding-top: 10vh;
+ width: 60%;
+ }
+.projectlink{
+  color: rgb(241, 170, 182);
+
+}
+
+.project-tile{
+  width: 200px;
+  height: 100px;
+  background-color: black !important;
+  margin: 10px;
+  display: inline;
+}
+
+
+  #projects{
+height: 100vh;
+width: 100vw;
+background-color: rgb(241, 170, 182);
+}
+
+  .slides{
+    display: flex;
+    color: black;
+  }
+  .welcome{
+    width: 60%;
+    text-align: center;
+    padding-top: 20vh;
+    color: lightblue;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    margin: -5%;
+    padding: 0% 20% 0% 20%;
+  }
+  
+  ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5%;
+  }
+  
+  @media screen and (max-width: 500px){
+    .about{
+      font-size: 13px;
+    }
+    .contact{
+      font-size: 13px !important;
+    }
+    h1{
+    font-size: 20px;
+  }
+  .projectlink{
+    font-size: 13px !important;
+  }
+  ul{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  li{
+    display: flex;
+    margin: 0 5% 0 5%;
+    font-size: 20px;
+  }
+  #navbar{
+    font-size: 13px;
+  }
+  }
+  
